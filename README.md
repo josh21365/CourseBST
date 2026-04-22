@@ -1,2 +1,7 @@
-# CourseBST
-I created a course program that loads data into a binary search tree, and does operations such as printing all the courses via a file,  or search a specific course.
+This project, although challenging and requiring extensive research—especially on recursion—taught me a lot. Most of the definitions I found left out important details, such as how recursion unwinds and pauses in the call stack. This made it difficult to visualize how data is moved. To overcome this, I used tools in my IDE, such as setting breakpoints and running the code in debug mode step by step, watching how variables changed. While I am able to write code that compiles, it may still contain underlying bugs, so using debug mode is crucial to ensure functionality.
+
+When designing a project like this, I wish my pseudocode had included more input validation, as I ended up adding it later. For example, if the user inputs a character or string in the main switch, it would run an infinite loop. Incorporating validation is just as important as planning out the program’s core functionalities.
+
+The more I worked on this project, the more I realized the value of encapsulating code inside functions rather than leaving it inline. For instance, I created a checkUserInput function for validation. While I could have written this inline, it would have made the code harder to read and maintain. In the long term, this function can be reused without requiring another developer to recreate it.
+
+Overall, this project gave me valuable hands-on experience with pointers, object-oriented programming, data structures, structs, and file parsing. Although I had mostly studied the theory of these concepts before, this project allowed me to demonstrate practical understanding and proficiency.
